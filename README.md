@@ -31,3 +31,16 @@ The workflow publishes `index.html`, `assets/` and `.nojekyll`. Reference the
 stylesheet and script as `assets/css/styles.css?v=dev` and
 `assets/js/main.js?v=dev`; each deploy replaces `?v=dev` with the commit SHA so
 browsers and CDN caches fetch the new files.
+
+## Analytics
+
+The site uses Cloudflare Web Analytics (no cookies, no individual visitor
+tracking). Place this snippet immediately before `</body>` in every HTML page:
+
+```html
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "20a8a993c7c740b4acc0a126cea4087b"}'></script><!-- End Cloudflare Web Analytics -->
+```
+
+The token only accepts page views from the hostname registered for it in the
+Cloudflare dashboard (Analytics & Logs → Web Analytics). If the site's domain
+changes, update the hostname there.
