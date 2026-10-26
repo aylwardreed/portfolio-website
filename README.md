@@ -1,8 +1,8 @@
 # Portfolio website
 
 Jonathan Reed's portfolio site (jonathanreed.me), served with GitHub Pages.
-Rebuilt from the original Cargo site as plain HTML, CSS and JavaScript. No build
-step.
+
+Plain HTML, CSS and JavaScript. No build step.
 
 ## Structure
 
@@ -12,12 +12,12 @@ about/index.html              About page
 <project>/index.html          One folder per project (eurostar, center-parcs, eafc,
                               riot-games, sendwave, the-fork, hello-fresh, fresha,
                               mind, alan, molton-brown) plus more/
-about-me-1/index.html         Redirect from the old Cargo URL to about/
+about-me-1/index.html         Redirect from the previous About page address to about/
 assets/css/styles.css         Styles
 assets/js/main.js             Slideshows and the image viewer (lightbox)
 assets/media/<page>/          Images and videos for each page
 assets/fonts/                 Inter (stand-in for Diatype) and VCR OSD Mono
-assets/icons/                 Icons used in the header and project list
+assets/icons/                 Phosphor icons (MIT licence) for the header and project list
 assets/images/                Favicon, Apple touch icon, link preview image
 .github/workflows/pages.yml   Deploys the site to GitHub Pages on every push to main
 ```
@@ -42,9 +42,9 @@ existing project folder, change its content, and add a link to it in the
 ## Fonts
 
 Headings and body text use Inter (SIL Open Font License, see
-`assets/fonts/Inter-LICENSE.txt`) in place of Diatype, which is licensed for
-Cargo-hosted sites only. To switch to Diatype after buying a web licence from
-ABC Dinamo, add its WOFF2 files to `assets/fonts/`, replace the two Inter
+`assets/fonts/Inter-LICENSE.txt`). The header and navigation use VCR OSD Mono
+by Riciery Leal. To switch to Diatype after buying a web licence from ABC
+Dinamo, add its WOFF2 files to `assets/fonts/`, replace the two Inter
 `@font-face` rules in `assets/css/styles.css`, and change `--font-sans`.
 
 ## Local preview
@@ -66,7 +66,7 @@ replaces `?v=dev` with the commit SHA so browsers and CDN caches fetch the new
 files.
 
 To serve the site at jonathanreed.me, set the custom domain under Settings →
-Pages and point the domain's DNS at GitHub Pages instead of Cargo.
+Pages and point the domain's DNS at GitHub Pages.
 
 ## Analytics
 

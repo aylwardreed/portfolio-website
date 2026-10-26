@@ -35,7 +35,7 @@
   --accent: #ff0000;
   --page-padding: 2rem;
   --gutter: 2rem;
-  /* The whole layout scales with the root size, as on the original Cargo site */
+  /* The whole layout scales with the root font size */
   font-size: min(12.96px, 1.6168vw);
 }
 
@@ -133,10 +133,10 @@ h1 .icon {
 }
 
 .icon--peace { --icon: url("../icons/peace.svg"); }
-.icon--pencil-2 { --icon: url("../icons/pencil-2.svg"); }
+.icon--pencil { --icon: url("../icons/pencil.svg"); }
 .icon--command { --icon: url("../icons/command.svg"); }
-.icon--mail-1 { --icon: url("../icons/mail-1.svg"); }
-.icon--rightwards-arrow { --icon: url("../icons/rightwards-arrow.svg"); }
+.icon--mail { --icon: url("../icons/mail.svg"); }
+.icon--arrow-right { --icon: url("../icons/arrow-right.svg"); }
 .icon--linkedin { --icon: url("../icons/linkedin.svg"); }
 
 .align-center {
@@ -396,7 +396,7 @@ h1 .icon {
   --gutter: 4.4rem;
 }
 
-.about .nav-bar-black {
+.about .intro {
   display: block;
   font-family: var(--font-mono);
   font-size: 1.6rem;
@@ -437,7 +437,7 @@ h1 .icon {
     padding: 5rem;
   }
 
-  .about .nav-bar-black {
+  .about .intro {
     font-size: 1.5rem;
   }
 
