@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/vcr-osd-mono.woff") format("woff");
+  src: url("../fonts/vcr-osd-mono.woff2") format("woff2");
 }
 
 /* Tokens */

@@ -43,7 +43,7 @@ existing project folder, change its content, and add a link to it in the
 
 Headings and body text use Inter (SIL Open Font License, see
 `assets/fonts/Inter-LICENSE.txt`). The header and navigation use VCR OSD Mono
-by Riciery Leal. To switch to Diatype after buying a web licence from ABC
+by Riciery Leal, from dafont (see `assets/fonts/VCR-OSD-Mono-LICENSE.txt`). To switch to Diatype after buying a web licence from ABC
 Dinamo, add its WOFF2 files to `assets/fonts/`, replace the two Inter
 `@font-face` rules in `assets/css/styles.css`, and change `--font-sans`.
 

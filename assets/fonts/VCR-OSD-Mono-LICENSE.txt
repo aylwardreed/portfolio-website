@@ -1,0 +1,9 @@
+VCR OSD Mono
+Designer: Riciery Leal (MrManet)
+Version: 1.001 (March 31, 2015)
+Source: https://www.dafont.com/vcr-osd-mono.font
+Licence: listed on dafont as "100% Free". The download contains no separate
+licence file and the font itself carries no copyright or licence text.
+
+vcr-osd-mono.woff2 is VCR_OSD_MONO_1.001.ttf from that download, converted to
+WOFF2 without changes to its glyphs.
